@@ -1,0 +1,20 @@
+- name: MS Excel
+  percentage: 60
+  color: success  
+
+- name: Tableau
+  percentage: 50
+  color: secondary
+
+- name: Git
+  percentage: 50
+  color: secondary
+
+- name: Heroku
+  percentage: 50
+  color: secondary  
+
+
+
+
+
