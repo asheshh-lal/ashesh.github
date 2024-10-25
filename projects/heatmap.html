@@ -49,12 +49,9 @@
                 <li><strong>Github URL</strong>: <a href="https://github.com/asheshh-lal/Scouting" target="_blank">Project Link</a></li>
                 </ul>
                 
-                <p>
-                  Developed a ProScout app using FastAPI that allows users to select a player from a database of 2,000 players. The app recommends 10 similar players based on cosine similarity after initially clustering the players. Additionally, users can generate reports with the help of the LLM Geminai.
-                </p>
-                <p>
-                  Built a heatmap for Argentina's passes during the match against France in the 2022 World Cup final, utilizing StatsBomb event data. This visualization highlights the areas where Argentina played most of its passes.
-                </p>
+                <p>I developed a ProScout app using FastAPI, allowing users to choose a player from a 2,000-player database and receive recommendations for ten similar players based on cosine similarity. To group similar players, the app uses K-means clustering, with the optimal number of clusters, K, determined through the elbow method and silhouette score. This clustering step enables more accurate similarity recommendations within each group.</p>
+
+                <p>After clustering, cosine similarity helps identify the closest ten players to the selected player. The app also includes Geminai’s LLM-based reporting, allowing users to generate customizable, detailed player reports. Together, these features make ProScout an insightful tool for player analysis and comparisons.</p>
                 
             </div>
   
